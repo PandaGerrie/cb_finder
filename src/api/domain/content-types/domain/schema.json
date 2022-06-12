@@ -4,7 +4,8 @@
   "info": {
     "singularName": "domain",
     "pluralName": "domains",
-    "displayName": "domains"
+    "displayName": "domains",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "domain_name": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "flags": {
       "type": "integer"
